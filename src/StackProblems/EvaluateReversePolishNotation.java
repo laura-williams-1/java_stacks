@@ -13,9 +13,6 @@ public class EvaluateReversePolishNotation {
                 if(isNumber(token)){
                     stack.push(Integer.parseInt(token));
                 } else if(isOpperand(token)){
-//                    if (stack.isEmpty()){
-//                        return 0;
-//                    }
                     int num1 = stack.pop() ;
                     int num2 = stack.pop() ;
                     int result = completeOperation(token.charAt(0),num1,num2);
@@ -51,8 +48,7 @@ public class EvaluateReversePolishNotation {
         // post fix solution
         // start iterating @ the front of the string
         // if where is a number you add it to the stack
-        // if you see an operand
-        // if stack is empty return false
+        // if you see an operan
         // 1 pop froms tack goes right
         // 2 pop from stack goes left
         // append to stack 2pop operand 1 pop
