@@ -1,3 +1,4 @@
+package stack3130;
 public interface Stack3130<E> {
 // interfaces specify:
     // method name
