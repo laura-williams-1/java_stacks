@@ -41,6 +41,7 @@ public class ArrayStack3130<E> implements Stack3130<E>{
 
     @Override
     public String toString() {
+        return "'';";
 
     }
 
